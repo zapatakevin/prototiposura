@@ -4,14 +4,22 @@
   "description": "Es una api rest del backend de la aplicación de chat bot para el area transversal",
   "main": "app.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kevin rios y juan camilo",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.5.1",
-    "express": "^4.17.1",
-    "method-override": "^2.1.2",
-    "mongoose": "^3.6.20"
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "crypto": "0.0.3",
+    "express": "4.17.1",
+    "express-handlebars": "^3.0.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.16.0",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
