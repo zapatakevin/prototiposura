@@ -5,7 +5,7 @@ var express         = require("express"),
     mongoose        = require('mongoose');
 
 // Connection to DB
-mongoose.connect('mongodb://localhost/tvshows', function(err, res) {
+mongoose.connect('mongodb://localhost/chats', function(err, res) {
   if(err) throw err;
   console.log('Connected to Database');
 });
