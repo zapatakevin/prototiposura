@@ -2,7 +2,7 @@
   "name": "prototipo-sura",
   "version": "1.0.0",
   "description": "Es una api rest del backend de la aplicación de chat bot para el area transversal",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
